@@ -235,3 +235,10 @@ firfox2为navigator对象新增了registerContentHandler()和 registerProtocolHa
 
 #### history对象
 history是window对象的属性，每个窗口、标签页、框架都有自己的history对象与特定window对象关联。go()方法可以实现跳转，history.go(-1),也可以使用字符串跳转到包含该字符串的第一个位置。也可以使用back()、forward()实现后退、前进。history.length=0表示实打开窗口的第一个页面。
+
+## 客户端检测
+### 能力检测
+### 怪癖检测
+### 用户代理检测
+
+后续采用分节的方式写javascript-note
