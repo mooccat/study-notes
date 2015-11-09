@@ -6,7 +6,8 @@ HTML DOM 将 HTML 文档视作树结构。这种结构被称为节点树：
 ### 1.1.Node类型
 ![Node类型](./image/dom/NodeTypes.png)
 **NodeTypes - Named Constants**
-![NodeTypes - Named Constants](./image/dom/NodeTypes - Named Constants.png)
+![NodeTypes - Named Constants]
+(./image/dom/NodeTypes - Named Constants.png)
 可以通过比较这些常量，确定节点类型:
 ```
 if(someNode.nodeType == Node.ELEMENT_NODE){
